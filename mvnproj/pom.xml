@@ -51,11 +51,7 @@
     <version>3.0.6</version>
     <scope>provided</scope>
 	</dependency>
-	<dependency>
-    <groupId>org.reuse</groupId>
-    <artifactId>commons</artifactId>
-    <version>1.0</version>
-	</dependency>
+	
   </dependencies>
   <build>
 		<plugins>
