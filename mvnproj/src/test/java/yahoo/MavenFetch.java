@@ -6,6 +6,8 @@ public class MavenFetch {
 		System.out.println("Committing and pushing to Github");
 		System.out.println("new line updated");
 		System.out.println("4th line");
+		System.out.println("Conflict");
+
 
 	}
 
