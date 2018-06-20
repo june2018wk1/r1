@@ -7,6 +7,8 @@ import org.testng.Reporter;
 
 import com.aventstack.extentreports.Status;
 
+import reuse.Commons;
+
 
 
 public class Compose extends MainClass
@@ -15,8 +17,7 @@ public class Compose extends MainClass
   public void sendmail() throws Exception
   {
 	  driver.findElement(By.xpath("//input[@class='composeicon']")).click();
-     // Commons c=new Commons();
-      //c.
+   
 	  Thread.sleep(3000);
 	  try
 	  {
