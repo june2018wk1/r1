@@ -17,7 +17,7 @@ public class Compose extends MainClass
   public void sendmail() throws Exception
   {
 	  driver.findElement(By.xpath("//input[@class='composeicon']")).click();
-   
+
 	  Thread.sleep(3000);
 	  try
 	  {
@@ -27,6 +27,8 @@ public class Compose extends MainClass
 			  log.log(Status.PASS, "Compose page is displayed");
 			  takescreenshot(imagepath+"compose.png");
 			  log.addScreenCaptureFromPath(imagepath+"compose.png");
+			 System.out.println("testing");
+			 System.out.println("java");
 		  }
 	  }
 	  catch(Exception e)
